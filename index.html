@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Book</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <nav>
+        <div class="nav-container">
+            <a href="#" class="logo">Book Review </a>
+            <ul class="nav-links">
+                <li><a href="review.html">Home</a></li>
+                <li><a href="#review.html">Reviews</a></li>
+                <li><a href="#">Authors</a></li>
+                <li><a href="#">Genres</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <header>
+        <div class="container">
+           <h1>My book Review</h1>
+            <p class="tagline">Discover your next favorite read</p>
+        </div>
+    </header>
+    
+    <div class="container">
+        <h2>Latest Reviews</h2>
+        <div class="book-cards">
+            <!-- Book 1 -->
+            <div class="card">
+                <img src="mil.jpg" alt="Book Cover" class="card-img">
+                <div class="card-content">
+                    <h3 class="card-title">Born A crime</h3>
+                    <p class="card-author">Reviewed by MIldred Osebe</p>
+                    <p class="card-review">A psychological thriller that will keep you guessing until the very last page. The twists are unpredictable and the writing is superb.</p>
+                    <p class="card-rating">★★★★★ (4.8/5)</p>
+                    <a href="review.html" class="read-more">My Blog</a>
+                </div>
+            </div>
+            
+            <!-- Book 2 -->
+            <div class="card">
+                <img src="ca.jpg" alt="Book Cover" class="card-img">
+                <div class="card-content">
+                    <h3 class="card-title">DEAR IJEAWELE</h3>
+                    <p class="card-author">Reviewed by Mildred Osebe</p>
+                    <p class="card-review">A powerful memoir about the transformative power of education. Westover's journey from isolation to Cambridge is inspiring.</p>
+                    <p class="card-rating">★★★★☆ (4.6/5)</p>
+                    <a href="review-two.html" class="read-more">Read Full Review</a>
+                </div>
+            </div>
+            
+            <!-- Book 3 -->
+            <div class="card">
+                <img src="Alchemist.jpg" alt="Book Cover" class="card-img">
+                <div class="card-content">
+                    <h3 class="card-title">THE ALCHEMIST</h3>
+                    <p class="card-author">Reviewed by Mildred Osebe</p>
+                    <p class="card-review">From the author of The Martian comes another science-packed adventure with heart and humor. The science is accurate and the story is gripping.</p>
+                    <p class="card-rating">★★★★★(4.9/5)</p>
+                    <a href="review-three.html" class="read-more">Read Full Review</a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- sign up -->
+        <div class="signup-section">
+            <h2 class="signup-title">Join My Book Club</h2>
+            <p class="signup-description">Get weekly book recommendations, exclusive reviews, and join  community of passionate readers. Sign up now to receive our monthly newsletter!</p>
+            
+            <form class="signup-form">
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+                
+                <button type="submit" class="submit-btn">Subscribe Now</button>
+            </form>
+        </div>
+    </div>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3>Book Haven</h3>
+                <p>Your gateway to literary adventures and honest book reviews from passionate readers.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f">f</i></a>
+                    <a href="#"><i class="fab fa-twitter">t</i></a>
+                    <a href="#"><i class="fab fa-instagram">i</i></a>
+                    <a href="#"><i class="fab fa-goodreads-g">g</i></a>
+                </div>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Book Reviews</a></li>
+                    <li><a href="#">Top Rated</a></li>
+                    <li><a href="#">New Releases</a></li>
+                    <li><a href="#">Author Interviews</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Reviewers</h3>
+                <ul>
+                    <li><a href="#">Mercylin Muthoni</a></li>
+                    <li><a href="#">Menbere luel</a></li>
+                    <li><a href="#">Haptamnesh</a></li>
+                    <li><a href="#">Our Review Team</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Contact</h3>
+                <ul>
+                    <li>Email: mildredosebe@reviewke.com</li>
+                    <li>Phone: +254 788 381975</li>
+                    <li>Address: 001 Kenyatta Avenue, Nairobi</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="copyright">
+            <p>&copy; <span id="year"></span> Book Review MO. All rights reserved.</p>
+        </div>
+        <script>
+            document.getElementById('year').textContent = new Date().getFullYear();
+        </script>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
